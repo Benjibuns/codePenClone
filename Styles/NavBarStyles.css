@@ -1,0 +1,64 @@
+.NavBar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.NavBar > .NavLogo img {
+    width: 180px;
+    height: 100%;
+    filter: invert(1);
+}
+
+.NavBar > .ToolBar {
+    display: grid;
+    margin-left: -300px;
+}
+
+.NavBar > .ToolBar > .Explore {
+    color: yellow;
+    grid-column: 1 / 6;
+}
+
+.NavBar > .ToolBar > .ToolLinks {
+    padding-right: 10px;
+}
+
+.NavBar > .ToolBar > .ToolLinks > .SparkDrop {
+    color: gray;
+    padding-left: 20px;
+}
+
+.NavBar > .ToolBar > .ToolLinks > .SparkDrop a {
+    color: gray;
+}
+
+.NavBar > .ToolBarRight {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.NavBar > .ToolBarRight > .CreateLink {
+    background-color: gray;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+.NavBar > .ToolBarRight > .CreateLink i {
+    color: rgb(57, 216, 57);
+}
+
+.NavBar > .ToolBarRight > .SearchBar i {
+    font-size: 2em;
+    margin: 10px;
+    color: rgb(83, 83, 83);
+}
+.NavBar > .ToolBarRight > .AccountLinks {
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+}

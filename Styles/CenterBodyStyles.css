@@ -1,0 +1,64 @@
+.CenterBody {
+    display: flex;
+    padding-top: 30px;
+}
+
+.CenterBody p {
+    font-size: 2em;
+    color: rgb(199, 199, 199);
+    font-weight: lighter;
+}
+
+.CenterBodyLeft {
+    flex: 55;
+    padding: 0px 45px;
+}
+
+.CenterBodyLeftWords {
+    font-weight: bolder;
+    color: white;
+}
+
+.CenterBodyRight {
+    flex: 45;
+    flex-basis: 0;
+}
+
+.CenterBodyRight img {
+    width: 100%;
+}
+
+.CenterBodyRight p {
+    font-size: initial;
+    font-weight: bold;
+    margin: 40px 0px 5px 12px;
+}
+
+.CenterBodyRightWords {
+    color: rgb(102, 186, 255);
+}
+
+.InfoLinks {
+    display: flex;
+    justify-content: start;
+    font-size: 1.5em;
+    padding: 50px 0px;
+}
+
+.InfoLinks > .SignUpForFree {
+    padding: 10px 20px;
+    margin-right: 5px;
+    background-color: rgb(79, 209, 133);
+    border-radius: 3px;
+}
+
+.InfoLinks > .SignUpForFree a {
+    color: black;
+}
+
+.InfoLinks > .LearnMore {
+    padding: 10px 20px;
+    margin-left: 5px;
+    background-color: black;
+    border-radius: 3px;
+}
